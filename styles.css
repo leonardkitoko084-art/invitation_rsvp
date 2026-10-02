@@ -1,0 +1,189 @@
+@font-face{font-family:InvitationSans;src:url('./fonts/NimbusSansNarrow-Regular.otf') format('opentype');font-weight:400;font-display:swap}
+@font-face{font-family:InvitationSans;src:url('./fonts/NimbusSansNarrow-Bold.otf') format('opentype');font-weight:700;font-display:swap}
+@font-face{font-family:InvitationScript;src:url('./fonts/Z003-MediumItalic.otf') format('opentype');font-weight:400;font-display:swap}
+*{box-sizing:border-box}html{scroll-behavior:smooth;scroll-padding-top:24px}body{margin:0;background:#e9e5de;color:#242420;font-family:InvitationSans,Arial,sans-serif;font-size:18px;line-height:1.35}a{color:inherit;text-underline-offset:4px}img{display:block;max-width:100%}button,input,textarea{font:inherit}button,a,input,textarea{touch-action:manipulation}button{cursor:pointer}a:focus-visible,button:focus-visible,input:focus-visible,textarea:focus-visible{outline:3px solid #b18321;outline-offset:4px}[hidden]{display:none!important}h1,h2,h3,h4,p,figure,blockquote{margin:0}h3,h4{font-size:1.125rem}.sr-only{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0}
+.invitation-sheet{width:min(100%,660px);margin:0 auto;background:white;box-shadow:0 0 70px #31291c17;overflow:hidden}.cover{position:relative;aspect-ratio:576/556;overflow:hidden;background:#a68558}.cover-source{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:center top}.invitation-paper{position:relative;isolation:isolate;background:linear-gradient(90deg,#fbf5e9 0%,#fffdf8 19%,#fffdf8 81%,#fbf5e9 100%)}.paper-section{position:relative;background:transparent;text-align:center}.paper-content{position:relative;z-index:1;padding:0 11%}.script{font-family:InvitationScript,'Segoe Script',cursive;font-weight:400;line-height:1.15}.invitation-intro{padding:25px 0 12px}.monograms{display:flex;align-items:center;justify-content:center;gap:25px;height:100px}.monograms>span{position:relative;width:94px;height:92px;display:grid;place-items:center}.monograms b{font-family:Georgia,serif;font-style:italic;font-weight:700;font-size:91px;line-height:1}.monograms small{position:absolute;top:39px;left:0;width:100%;background:#fffefc;font-family:Georgia,serif;font-size:16px;line-height:20px}.monograms i{height:100%;width:1px;background:#55493e}.couple-caption{margin:24px 0 7px;font-size:1.25rem}blockquote{font-size:1.125rem;line-height:1.6}blockquote cite{display:block;font-style:normal;font-weight:700;margin-top:0}.guest-invitation{margin:32px 0 15px}.guest-salutation{font-size:1.15rem;margin-bottom:28px}.guest-name{font-family:Arial,sans-serif;font-size:1.35rem;text-transform:uppercase;font-weight:700;border-bottom:2px dotted #675e4f;padding:0 0 10px;overflow-wrap:anywhere}.guest-table{display:flex;align-items:baseline;justify-content:center;gap:8px;font-family:Arial,sans-serif;font-size:14px;margin:18px 0 8px}.guest-table strong{font-size:18px;min-width:55%;border-bottom:2px dotted #675e4f;text-transform:uppercase;padding:0 6px 2px;overflow-wrap:anywhere}.party-size{font-size:14px;color:#5b554d}.invalid-invitation{margin:30px 0;padding:16px;border:1px solid #bb9243;line-height:1.5}.invited-heading{font-size:2.2rem;margin:31px 0 30px}.invitation-paragraph{font-size:1.125rem;line-height:1.45;margin-bottom:25px}.invitation-paragraph strong{font-weight:700}.couple-seal{position:relative;margin:60px auto 42px;width:245px;height:235px;display:grid;place-items:center}.seal-line{position:absolute;inset:15px;border:1px solid #c6b2677a;pointer-events:none}.seal-one{transform:rotate(13deg)}.seal-two{transform:rotate(-16deg)}.couple-seal>div{position:relative;font-size:3.3rem;color:#b38a5e;line-height:1.1}.couple-seal small{display:block;font-size:2rem;color:#b3ad9380;line-height:1.45}.date-card{margin:0 auto 30px;color:#30251f}.date-month,.date-year{font-family:Arial,sans-serif;display:block;font-size:1.9rem;font-weight:300}.date-month{margin-bottom:14px}.date-row{display:flex;align-items:center;justify-content:center;gap:18px;margin-bottom:10px}.date-row>span{font-family:Arial,sans-serif;font-size:1.75rem;border-block:3px solid #392920;padding:4px 5px;min-width:90px}.date-row>strong{font-family:Arial,sans-serif;font-size:2.85rem;line-height:1.2}.venue-pin{width:60px;height:60px;margin:10px auto 22px}.reception-place h3{font-size:1.3rem}.reception-place>strong{display:block;font-size:1.4rem;line-height:1.2;color:#664025;margin:4px 0 5px}.reception-place p{font-size:1.25rem;line-height:1.5}.subtle-link{display:inline-block;margin-top:12px;font-size:14px;color:#6c501d;min-height:30px}.program-section{padding:40px 0 26px}.gold-heading{color:#c89625;font-family:Arial,sans-serif;font-size:1.9rem;line-height:1.2;font-weight:700;margin-bottom:16px}.ceremony p{font-size:1.15rem;line-height:1.4}.ceremony h3{font-family:Arial,sans-serif;font-size:1rem;margin-bottom:5px}.green-heading{font-family:Arial,sans-serif;font-size:1.3rem;color:#17643b;margin:25px 0 22px}.program-list{margin:0 auto;text-align:center;width:min(100%,390px)}.program-item{display:grid;justify-items:center;gap:10px;text-align:center;margin:0 0 30px}.program-item>svg{width:34px;height:34px;margin:0}.program-item:nth-child(2)>svg{color:#1a765a}.program-item time{display:block;font-size:1.125rem;line-height:1.2}.program-item h4{font-family:Arial,sans-serif;font-size:1rem;line-height:1.3}.dress-section{padding:0 0 20px}.theme-label{font-size:2rem;margin-bottom:14px}.theme-title{font-size:2.9rem;margin-bottom:20px;white-space:nowrap}.dress-guide{display:flex;align-items:center;justify-content:center;gap:20px;margin:0 0 66px}.dress-guide svg{width:66px;height:70px;color:#634021}.dress-guide span{border-left:2px solid #222;padding:10px 0 10px 15px;text-align:left;font-family:Arial,sans-serif;font-size:1.15rem;font-weight:700;line-height:1.25}.dress-heading{font-family:Arial,sans-serif;font-size:1.15rem;margin-bottom:10px}.dress-description{font-family:Arial,sans-serif;font-weight:700;font-size:14px}.swatches{display:flex;gap:5px;justify-content:center;align-items:flex-end;margin:20px 0 27px}.swatches>span{display:block;width:65px;height:92px}.swatches .gold-swatch{background:linear-gradient(90deg,#80580d,#efc64e 40%,#fae7a0 55%,#b17b13);height:98px}.swatches .green-swatch{background:#116735;height:89px}.swatches .black-swatch{background:#20201e;height:70px}.contact-text{font-family:Arial,sans-serif;font-size:14px;line-height:1.45}.contact-text strong{font-size:14px}.contact-text a{text-decoration:none}.contact-text a:hover{text-decoration:underline}.welcome-text{font-family:Arial,sans-serif;font-size:14px;line-height:1.5;margin:24px 0 16px}.welcome-signature{font-size:1.75rem;margin-bottom:34px}.qr-section{padding:44px 8%;border-top:1px solid #ece3d4}.qr-section>img{width:240px;height:240px;margin:25px auto 14px;background:white}.qr-section p{line-height:1.6}.qr-section small{font-size:14px;color:#675d4e}.rsvp-section{padding:40px 0;background:transparent;border-top:1px solid #ded1b5}.rsvp-intro{margin-bottom:27px}.rsvp-form{text-align:left;display:grid;gap:20px}.rsvp-form label{display:grid;gap:7px;font-size:1.125rem}.rsvp-form label>span{font-size:14px;color:#69665c}.rsvp-form input:not([type=radio]):not([type=checkbox]),.rsvp-form textarea{display:block;width:100%;min-height:46px;border:1px solid #c4bba9;background:white;border-radius:5px;padding:12px;color:#25241f;font-size:1.0625rem}.rsvp-form textarea{resize:vertical}.rsvp-form input[readonly]{background:#eeeae1!important}.field-row{display:grid;grid-template-columns:1fr 1fr;gap:15px}.rsvp-form fieldset{padding:0;margin:0;border:0}.rsvp-form legend{margin-bottom:12px;font-size:1.125rem}.choice-row{display:grid;gap:10px}.rsvp-form .choice{display:flex;gap:10px;align-items:center;border:1px solid #d2c7b3;background:white;padding:13px;border-radius:5px;cursor:pointer}.choice:has(input:checked){border-color:#156438;background:#eef5ec}.rsvp-form .choice span{font-size:1.125rem;color:#282820}.rsvp-form input[type=radio],.rsvp-form input[type=checkbox]{accent-color:#156438;width:19px;height:19px;flex:none}.attendance-extra-fields{display:grid;gap:20px}.rsvp-form .consent{display:flex;align-items:flex-start;gap:10px}.rsvp-form .consent span{font-size:14px;line-height:1.5}.consent input{margin-top:1px}.button{display:inline-flex;align-items:center;justify-content:center;padding:13px 22px;border-radius:5px;border:0;min-height:47px;font-size:1.125rem;font-weight:700;text-decoration:none}.button-primary{background:#146539;color:white}.button-primary:hover{background:#0d4b29}.button:disabled{cursor:wait;opacity:.65}.form-status{color:#8e3026;font-size:1rem}.honeypot{position:absolute;left:-10000px;width:1px;height:1px;overflow:hidden}.calendar-link{display:inline-block;margin-top:18px;min-height:32px;font-size:1rem;color:#6d501c}.footer{text-align:center;background:transparent;padding:32px 11% 40px}.footer>.script{font-size:2rem}.footer>p:nth-child(2){font-size:16px;margin:8px 0 15px}.footer-actions{display:flex;flex-wrap:wrap;justify-content:center;gap:18px;margin-bottom:18px;font-size:14px}.footer small{font-size:14px}.floating-rsvp{position:fixed;right:22px;bottom:22px;z-index:20;background:#146539;color:white;box-shadow:0 3px 15px #14372430;border:1px solid #bd9844;border-radius:999px;min-height:48px;padding:12px 20px;text-decoration:none;font-family:Arial,sans-serif;font-size:14px;font-weight:700}.success-modal{position:fixed;inset:0;background:#201b16a8;z-index:100;display:grid;place-items:center;padding:20px}.modal-card{width:min(100%,440px);text-align:center;padding:34px;background:#fffaf0;border:1px solid #be9943;border-radius:10px}.modal-card h2{font-size:1.75rem;margin-bottom:16px}.modal-card p{margin-bottom:22px}.section-shell{width:min(100%,760px);margin:auto}.section-pad{padding:50px 28px;background:white}.section-heading{margin-bottom:28px}.section-heading h1{font-size:2rem;line-height:1.2}.eyebrow{font-size:14px;color:#78591f;margin-bottom:10px}.story-text h2{font-size:1.4rem;margin:26px 0 10px}.story-text p{margin-bottom:15px;line-height:1.5}
+@media(min-width:800px){.invitation-sheet{margin:32px auto;border-radius:4px}.floating-rsvp{right:max(22px,calc((100vw - 660px)/2 - 100px))}}
+@media(max-width:430px){body{font-size:17px}.paper-content{padding-inline:11%}.monograms{gap:16px;height:84px}.monograms>span{height:84px;width:82px}.monograms b{font-size:80px}.monograms small{top:35px;font-size:14px}.couple-caption{font-size:1.1rem}blockquote{font-size:1rem;line-height:1.5}.invited-heading{font-size:2rem}.invitation-paragraph{font-size:1.0625rem}.couple-seal{margin-block:40px 30px;width:215px;height:210px}.couple-seal>div{font-size:2.9rem}.date-row{gap:12px}.date-row>span{font-size:1.3rem;min-width:75px}.date-row>strong{font-size:2.6rem}.date-month,.date-year{font-size:1.6rem}.program-item{gap:9px;margin-bottom:27px}.program-item h4{font-size:14px}.program-item>svg{width:30px;height:30px}.theme-title{font-size:2.3rem}.dress-guide{margin-bottom:45px}.dress-guide span{font-size:1rem}.dress-description{font-size:12px}.swatches>span{width:57px}.field-row{grid-template-columns:1fr}.gold-heading{font-size:1.5rem}.rsvp-form label{font-size:1rem}.floating-rsvp{right:14px;bottom:14px}.wide-break{display:none}}
+@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
+
+
+
+
+@media(max-width:430px){.theme-title{font-size:2rem;white-space:normal}}
+
+.cover-date{position:absolute;inset:auto 0 0;height:17%;display:flex;align-items:center;justify-content:center;background:#111d35;color:#edbc5b;font-family:Arial,sans-serif;font-weight:700;font-size:clamp(32px,12vw,78px);line-height:1;letter-spacing:.03em}
+.couple-seal .seal-surname{display:block;font-family:InvitationSans,Arial,sans-serif;font-size:1rem;font-weight:700;letter-spacing:.15em;line-height:1.3;color:#76541a}
+.ceremony h3{font-size:1.2rem;color:#722f37;margin-bottom:12px}.ceremony p{line-height:1.55}.ceremony+.program-list{margin-top:24px}.program-item:nth-child(2)>svg{color:#722f37}.evening-heading{font-family:Arial,sans-serif;font-size:1.3rem;color:#234b82;margin:30px 0 12px}.program-venue{line-height:1.5;margin-bottom:26px}
+.room-colors{display:flex;gap:24px;justify-content:center;margin:0 0 35px}.room-colors>span{display:flex;align-items:center;gap:8px;font-size:16px}.room-colors i{width:22px;height:22px;display:block;border-radius:50%}.dress-guide{margin-bottom:32px}.dress-description{font-size:16px;font-weight:400;line-height:1.5}
+.swatches{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px;width:min(100%,320px);align-items:start;margin:22px auto 30px}.swatches figure{min-width:0}.swatches figure>span{display:block;width:100%;height:85px;border:1px solid #00000012;border-radius:3px}.swatches figcaption{font-family:Arial,sans-serif;font-size:14px;line-height:1.3;margin-top:9px;min-height:37px}
+.choice:has(input:checked){border-color:#234b82;background:#f0f3f8}.rsvp-form input[type=radio],.rsvp-form input[type=checkbox]{accent-color:#234b82}.button-primary,.floating-rsvp{background:#722f37}.button-primary:hover,.floating-rsvp:hover{background:#57232b}
+@media(max-width:430px){.cover-date{font-size:clamp(32px,12vw,51px)}.couple-caption{line-height:1.4}.couple-seal>div{font-size:2.6rem}.couple-seal .seal-surname{font-size:14px}.swatches figure>span{height:74px}.swatches figcaption{font-size:14px}.dress-description{font-size:16px}.program-item h4{font-size:16px}}
+.wedding-attire-icons{display:flex;align-items:center;gap:10px;flex:none}.wedding-attire-icons>img{width:76px;height:84px;object-fit:contain}
+@media(max-width:430px){.dress-guide{gap:14px}.wedding-attire-icons{gap:8px}.wedding-attire-icons>img{width:60px;height:74px}}
+
+.program-item:last-child{margin-bottom:0}.program-item>div{width:100%}.program-item time{margin-bottom:4px}.evening-heading,.program-venue,.ceremony{text-align:center}
+.invitation-paper::before{content:'';position:absolute;inset:0;z-index:0;pointer-events:none;background:url('./assets/images/botanical-border.png') center top / 100% auto repeat-y;mask-image:linear-gradient(90deg,#000 0%,#000 6%,transparent 11%,transparent 89%,#000 94%,#000 100%);opacity:.78}.invitation-paper>.paper-section,.invitation-paper>.footer{position:relative;z-index:1}
+
+.cover-lettering{position:absolute;inset:20px 4% auto;text-align:center;color:#111d35}.cover-lettering>.script{font-size:1.5rem;color:#65471f;line-height:1.2}.cover-lettering>p:last-child{font-family:Arial,sans-serif;font-weight:700;font-size:clamp(36px,10vw,76px);letter-spacing:.015em;line-height:1.1}
+.photo-trio{position:relative;display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:10px;align-items:center;margin:22px 11% 0}.photo-trio>img{width:100%;height:auto;aspect-ratio:3/4;object-fit:cover;object-position:center top}.photo-trio>img:nth-child(2){aspect-ratio:2/3}.photo-trio>img:nth-child(3){object-position:32% center}
+@media(max-width:430px){.cover-lettering{top:12px}.cover-lettering>.script{font-size:1.15rem}.cover-lettering>p:last-child{font-size:clamp(32px,10vw,44px)}.photo-trio{gap:7px}}
+
+/* Finitions de l’invitation et du formulaire. */
+body{background:#eae5dd}
+.invitation-sheet{box-shadow:0 24px 90px #382c2520}
+.cover{border-bottom:4px solid #b99454}
+.cover-lettering{text-shadow:0 1px 14px #fff8}
+.cover-date{background:linear-gradient(110deg,#111d35,#1e3254);letter-spacing:.08em}
+.invited-heading{color:#722f37}
+.gold-heading{color:#886023;letter-spacing:.025em}
+.guest-invitation{padding:24px 18px;border:1px solid #d9c7a7;border-radius:12px;background:#fffdf7b8}
+.program-item>svg{box-sizing:content-box;padding:15px;border:1px solid #dfd1ba;border-radius:50%;background:#fffdf8;box-shadow:0 6px 20px #76541a0a;color:#722f37}
+.program-item time{font-weight:700;letter-spacing:.06em;color:#722f37}
+.program-item h4{color:#494038}
+.photo-trio{gap:12px;padding-bottom:34px}
+.photo-trio>img{border:5px solid #fffdf8;border-radius:7px;box-shadow:0 8px 22px #44332820}
+.subtle-link,.calendar-link{transition:color .2s;text-decoration-thickness:1px}
+.rsvp-section{padding:48px 6%;border-top:0}
+.rsvp-card{padding:36px 28px;border:1px solid #ddcbaa;border-radius:22px;background:linear-gradient(145deg,#fffefa,#faf5eb);box-shadow:0 14px 45px #60401e10;text-align:center}
+.rsvp-eyebrow{font-family:Arial,sans-serif;font-size:10px;font-weight:700;text-transform:uppercase;letter-spacing:.22em;color:#846130;margin-bottom:16px}
+.rsvp-emblem{width:58px;height:58px;border:1px solid #ddcbaa;border-radius:50%;display:grid;place-items:center;margin:0 auto 18px;background:#f6eddd;color:#886023}
+.rsvp-emblem svg{width:27px;height:27px}
+.rsvp-card>.gold-heading{font-family:Georgia,serif;font-size:clamp(25px,5vw,34px);font-weight:400;letter-spacing:-.025em;color:#722f37;margin-bottom:12px}
+.rsvp-intro{font-size:16px;line-height:1.6;color:#73695d;max-width:360px;margin:0 auto 28px}
+.rsvp-form{gap:19px;font-family:Arial,sans-serif}
+.rsvp-form label{gap:9px;font-size:13px;font-weight:600;color:#3f3530}
+.rsvp-form label>span{font-size:11px;font-weight:400;color:#766c60}
+.form-section-title{display:flex;align-items:center;gap:10px;padding-top:23px;border-top:1px solid #e6dccc;font-family:Georgia,serif;font-size:19px;color:#3c302a}
+.form-section-title:first-child{padding-top:0;border-top:0}
+.form-section-title>span{display:grid;place-items:center;flex:none;width:26px;height:26px;border-radius:50%;background:#f0e6d6;color:#886023;font-family:Arial,sans-serif;font-size:10px;font-weight:700}
+.form-help{font-size:11px;color:#766c60;margin-top:-7px}
+.rsvp-form input:not([type=radio]):not([type=checkbox]),.rsvp-form textarea{min-height:50px;border:1px solid #d8cdbd;border-radius:9px;padding:14px;background:#fff;font-size:14px;line-height:1.5;box-shadow:0 2px 4px #40302003;transition:border-color .2s,box-shadow .2s}
+.rsvp-form input::placeholder,.rsvp-form textarea::placeholder{color:#968b7f;font-weight:400}
+.rsvp-form input:focus-visible,.rsvp-form textarea:focus-visible{border-color:#96703e;outline:0;box-shadow:0 0 0 4px #bc8e2817}
+.rsvp-form input[readonly]{color:#73695d}
+.rsvp-form legend{font-size:13px;font-weight:600;color:#3f3530}
+.choice-row{grid-template-columns:1fr 1fr;gap:10px}
+.rsvp-form .choice{align-items:flex-start;min-height:79px;padding:17px 12px;border-radius:10px;border-color:#dfd3c2;transition:background .2s,border-color .2s,box-shadow .2s}
+.rsvp-form .choice span{font-size:13px;line-height:1.5;color:#4d4039;font-weight:500}
+.rsvp-form .choice:has(input:checked){border-color:#722f37;background:#faf0f0;box-shadow:0 0 0 1px #722f37}
+.rsvp-form input[type=radio],.rsvp-form input[type=checkbox]{accent-color:#722f37;width:17px;height:17px;margin:1px 0 0}
+.rsvp-form .consent{padding:16px;background:#f4eee3;border-radius:10px;font-weight:400}
+.rsvp-form .consent span{font-size:12px;line-height:1.7;color:#685b4c}
+.consent a{color:#722f37;font-weight:600}
+.form-table{padding:12px 16px;border-left:3px solid #bc8e28;background:#f7efdf;font-size:13px;color:#6e5433;border-radius:0 7px 7px 0}
+.submit-button{position:relative;width:100%;min-height:54px;border-radius:10px;background:linear-gradient(115deg,#722f37,#8c3c46);font-size:14px;letter-spacing:.02em;box-shadow:0 6px 16px #722f3724;transition:transform .2s,box-shadow .2s}
+.submit-button[aria-busy=true]::before{content:'';width:14px;height:14px;border:2px solid #ffffff50;border-top-color:#fff;border-radius:50%;margin-right:10px;animation:rsvp-spin .8s linear infinite}
+.form-status{font-size:13px;line-height:1.5}
+.form-status:empty{display:none}
+.rsvp-form .was-invalid,.rsvp-form [aria-invalid=true]{border-color:#a74040!important}
+.rsvp-assurance{margin:22px auto 0;max-width:300px;font-size:13px;line-height:1.5;color:#73695d}
+.calendar-link{font-size:14px;margin-top:22px;color:#722f37}
+.floating-rsvp{border-color:#c9a675;box-shadow:0 6px 25px #722f3730;letter-spacing:.06em}
+.modal-open{overflow:hidden}
+.modal-card{padding:36px 28px;border-radius:20px;border-color:#dcc7a7;box-shadow:0 24px 90px #0003}
+.modal-card h2{font-family:Georgia,serif;font-weight:400;color:#722f37}
+.modal-card p{line-height:1.6;color:#73695d}
+.success-icon{display:grid;place-items:center;width:62px;height:62px;margin:0 auto 24px;border-radius:50%;background:#e5eee4;color:#3c6942;font-family:Arial,sans-serif;font-size:28px}
+.footer{padding-top:38px;border-top:1px solid #e8ddcb}.footer>.script{color:#722f37}
+@media(hover:hover){.submit-button:hover{transform:translateY(-2px);box-shadow:0 10px 22px #722f3730}.rsvp-form .choice:hover{border-color:#b99d7a}.photo-trio>img:hover{transform:translateY(-4px)}.photo-trio>img{transition:transform .3s}}
+@media(max-width:430px){.rsvp-section{padding:34px 5%}.rsvp-card{padding:28px 18px;border-radius:16px}.rsvp-form{gap:17px}.rsvp-form .choice{padding:14px 10px}.rsvp-form .choice span{font-size:12px}.field-row{gap:17px}.program-item>svg{padding:12px}.photo-trio{gap:7px}.photo-trio>img{border-width:3px}.rsvp-card>.gold-heading{font-size:27px}}
+@media(max-width:340px){.choice-row{grid-template-columns:1fr}.rsvp-form .choice{min-height:52px}.rsvp-card{padding-inline:14px}}
+@keyframes rsvp-spin{to{transform:rotate(360deg)}}
+@keyframes invitation-in{from{opacity:0;transform:translateY(18px)}to{opacity:1;transform:translateY(0)}}
+@media(prefers-reduced-motion:no-preference){.cover-lettering{animation:invitation-in .9s ease-out both}.cover-date{animation:invitation-in .9s .15s ease-out both}.reveal{opacity:0;transform:translateY(22px);transition:opacity .7s ease,transform .7s cubic-bezier(.2,.7,.2,1)}.reveal.is-visible{opacity:1;transform:translateY(0)}.attendance-extra-fields:not([hidden]){animation:invitation-in .3s ease-out}.success-modal:not([hidden]) .modal-card{animation:invitation-in .35s ease-out}}
+@media(prefers-reduced-motion:reduce){*,*::before,*::after{animation:none!important;transition:none!important}.reveal{opacity:1;transform:none}}
+
+/* Deux parties du programme ; icônes et horaires alignés horizontalement. */
+.program-group{margin:24px 0 30px;padding:24px 18px;border:1px solid #e2d4bf;border-radius:14px;background:#fffdf890}
+.program-group-title{font-family:Georgia,serif;font-size:1.4rem;font-weight:400;color:#722f37;margin-bottom:14px}
+.program-group-reception .program-group-title{color:#234b82}
+.program-group .program-venue{font-size:1rem;line-height:1.6;margin-bottom:0}
+.program-group>.subtle-link{margin-top:10px}
+.program-group .program-list{margin-top:24px;width:min(100%,310px)}
+.program-group .program-item{grid-template-columns:64px minmax(0,1fr);align-items:center;justify-items:start;gap:18px;text-align:left;margin-bottom:20px}
+.program-group .program-item:last-child{margin-bottom:0}
+.program-group .program-item>svg{box-sizing:border-box;width:64px;height:64px;padding:15px;margin:0}
+.program-group .program-item>div{min-width:0}
+.program-group .program-item time{font-size:1.125rem;margin-bottom:5px}
+.program-group .program-item h4{font-size:1rem;line-height:1.4}
+@media(max-width:430px){.program-group{padding:22px 12px}.program-group-title{font-size:1.25rem}.program-group .program-item{grid-template-columns:50px minmax(0,1fr);gap:12px}.program-group .program-item>svg{width:50px;height:50px;padding:12px}.program-group .program-item h4{font-size:14px}}
+
+/* Centrage de chaque ensemble icône, horaire et intitulé. */
+.program-group .program-item{display:flex;justify-content:center;align-items:center;gap:18px;text-align:left}
+.program-group .program-item>svg{flex:none}
+.program-group .program-item>div{width:auto;flex:0 1 auto}
+@media(max-width:430px){.program-group .program-item{gap:12px}}
+
+/* Palette vestimentaire : trois cartes de couleur avec leur légende. */
+.dress-heading{font-size:11px;letter-spacing:.24em;color:#886023;margin-bottom:12px}
+.dress-description{font-size:17px;line-height:1.6;color:#65584c;max-width:340px;margin-inline:auto}
+.swatches{width:min(100%,420px);grid-template-columns:repeat(3,minmax(0,1fr));gap:14px;margin:26px auto 38px;align-items:stretch}
+.swatches figure{display:flex;flex-direction:column;padding:7px;border:1px solid #e2d5c2;border-radius:13px;background:#fffdf9;box-shadow:0 7px 22px #60401e0b;overflow:hidden}
+.swatches figure>span{position:relative;width:100%;height:auto;aspect-ratio:4/5;border-radius:8px;border:1px solid #0000000a;overflow:hidden}
+.swatches figure>span::after{content:'';position:absolute;inset:0;background:linear-gradient(135deg,#ffffff12,transparent 48%,#0000000a);pointer-events:none}
+.swatches figcaption{display:flex;align-items:center;justify-content:center;flex:1;min-height:52px;margin:0;padding:14px 4px 9px;font-family:InvitationSans,Arial,sans-serif;font-size:16px;font-weight:700;line-height:1.25;letter-spacing:.025em;color:#40352d;text-align:center}
+@media(prefers-reduced-motion:no-preference){.swatches figure{transition:transform .25s ease,box-shadow .25s ease,border-color .25s ease}}
+@media(hover:hover){.swatches figure:hover{transform:translateY(-5px);box-shadow:0 12px 26px #60401e18;border-color:#c6ad85}}
+@media(max-width:430px){.swatches{gap:9px;margin-block:24px 32px}.swatches figure{padding:5px;border-radius:10px}.swatches figure>span{border-radius:6px;aspect-ratio:3/4}.swatches figcaption{font-size:14px;min-height:54px;padding:12px 2px 7px}.dress-description{font-size:16px}}
+@media(max-width:340px){.swatches{gap:6px}.swatches figcaption{font-size:13px;letter-spacing:0}}
+
+/* Palette compacte. */
+.swatches{width:min(100%,300px);gap:10px;margin:22px auto 28px}
+.swatches figure>span{aspect-ratio:auto;height:58px}
+.swatches figcaption{font-size:14px;min-height:44px;padding:10px 2px 5px}
+@media(max-width:430px){.swatches{width:min(100%,270px);gap:8px}.swatches figure>span{height:48px;aspect-ratio:auto}.swatches figcaption{font-size:13px;min-height:42px;padding:9px 2px 5px}}
+
+/* Hero fourni : image complète, proportions originales. */
+.cover.cover-home{aspect-ratio:auto;background:#b2a095}
+.cover-home .cover-source{position:relative;inset:auto;display:block;width:100%;height:auto;object-fit:contain}
+
+/* Colonnes communes pour les icônes et les horaires du programme. */
+.program-group .program-list{width:min(100%,310px);margin-inline:auto}
+.program-group .program-item{display:grid;grid-template-columns:64px minmax(0,1fr);justify-content:normal;justify-items:start;align-items:center;gap:18px;text-align:left}
+.program-group .program-item>div{width:100%;min-width:0}
+@media(max-width:430px){.program-group .program-item{grid-template-columns:50px minmax(0,1fr);gap:12px}}
+
+/* Composition du modèle Theme_et_dress_code.png. */
+.dress-section .theme-label{font-family:InvitationScript,'Segoe Script',cursive;font-size:2rem;line-height:1.1;color:#49392e;margin:0 0 5px}
+.dress-section .theme-title{font-family:InvitationScript,'Segoe Script',cursive;font-size:clamp(2.3rem,7vw,3.2rem);line-height:1.2;color:#49392e;margin:0 0 22px;white-space:normal}
+.dress-section .dress-guide{gap:10px;margin:0 auto 62px;align-items:center}
+.dress-section .dress-hanger{width:62px;height:72px;padding:0;border:0;border-radius:0;flex:none;color:#614323}
+.dress-section .dress-guide>span{padding:12px 0 12px 10px;border-left:2px solid #302923;font-family:Arial,sans-serif;font-size:16px;font-weight:700;line-height:1.25;color:#292623}
+.dress-section .dress-heading{font-family:Arial,sans-serif;font-size:16px;font-weight:700;letter-spacing:0;color:#493626;margin-bottom:12px}
+.dress-section .dress-description{font-family:Arial,sans-serif;font-size:11px;font-weight:700;line-height:1.5;color:#302923;max-width:none;margin:0}
+.dress-section .swatches{display:flex;align-items:flex-end;justify-content:center;gap:5px;width:100%;margin:17px auto 32px}
+.dress-section .swatches figure{position:relative;display:block;flex:0 1 65px;min-width:0;padding:0;border:0;border-radius:0;background:transparent;box-shadow:none;overflow:visible}
+.dress-section .swatches figure>span{display:block;position:relative;width:100%;height:106px;aspect-ratio:auto;border:0;border-radius:0;background:linear-gradient(90deg,#a66d10 0%,#dba62f 27%,#fae399 51%,#d5a130 73%,#ad7617 100%)!important}
+.dress-section .swatches figure:nth-child(2)>span{height:95px;background:#116735!important}
+.dress-section .swatches figure:nth-child(3)>span{height:72px;background:#20201e!important}
+.dress-section .swatches figure>span::after{display:none}
+.dress-section .swatches figcaption{position:absolute;width:1px;height:1px;min-height:0;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0}
+@media(hover:hover){.dress-section .swatches figure:hover{transform:none;box-shadow:none}}
+@media(max-width:430px){.dress-section .theme-label{font-size:1.75rem}.dress-section .theme-title{font-size:2.4rem}.dress-section .dress-guide{margin-bottom:56px}.dress-section .dress-hanger{width:54px;height:66px}.dress-section .dress-guide>span{font-size:14px}.dress-section .dress-description{font-size:10px}.dress-section .swatches figure{flex-basis:55px}.dress-section .swatches figure>span{height:88px}.dress-section .swatches figure:nth-child(2)>span{height:78px}.dress-section .swatches figure:nth-child(3)>span{height:58px}}
+
+/* Couleurs demandées, dans la composition du modèle. */
+.dress-section .swatches figure:nth-child(1)>span{background:#722f37!important}
+.dress-section .swatches figure:nth-child(2)>span{background:#111d35!important}
+.dress-section .swatches figure:nth-child(3)>span{background:#20201e!important}
+.dress-section .wedding-attire-icons{gap:8px}
+.dress-section .wedding-attire-icons>img{width:58px;height:72px;object-fit:contain}
+@media(max-width:430px){.dress-section .wedding-attire-icons{gap:5px}.dress-section .wedding-attire-icons>img{width:46px;height:60px}}
+
+/* Typographie inspirée du modèle polices.png. */
+@font-face{font-family:InvitationHandwriting;src:url('./fonts/OoohBaby-Regular.ttf') format('truetype');font-weight:400;font-style:normal;font-display:swap}
+.invitation-intro .invited-heading{font-family:InvitationHandwriting,InvitationScript,cursive;font-weight:400;font-size:clamp(34px,7.5vw,52px);line-height:1.45;letter-spacing:-.035em;color:#38241f;margin:32px -12px 30px}
+.invitation-intro .invitation-paragraph{font-family:InvitationSans,Arial,sans-serif;font-weight:400;font-size:21px;line-height:1.65;color:#24201d;margin-bottom:28px}
+.invitation-intro .invitation-paragraph strong{font-weight:700;color:#38241f}
+@media(max-width:430px){.invitation-intro .invited-heading{font-size:clamp(32px,9vw,39px);margin-block:28px 24px}.invitation-intro .invitation-paragraph{font-size:18px;line-height:1.65;margin-bottom:24px}}
+
+.field-row-single{grid-template-columns:1fr}
+.form-privacy-note{font-family:Arial,sans-serif;font-size:11px;line-height:1.6;color:#73695d}
+.form-privacy-note a{color:#722f37;text-underline-offset:3px}
+
+.backup-phone-option{border:1px solid #e2d4bf;border-radius:10px;padding:14px;background:#fffdf8}
+.backup-phone-option summary{cursor:pointer;font-size:13px;color:#722f37;line-height:1.5}
+.backup-phone-option[open] summary{margin-bottom:16px}
+.backup-phone-option summary:focus-visible{outline:2px solid #96703e;outline-offset:4px}
+
+.rsvp-card>.calendar-link{display:block;width:fit-content;margin:18px auto 0;padding:10px 16px;border:1px solid #ddcbaa;border-radius:8px;text-decoration:none;background:#fffdf8;line-height:1.5}

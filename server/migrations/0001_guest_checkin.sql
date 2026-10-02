@@ -1,0 +1,1 @@
+ALTER TABLE guests ADD COLUMN checked_in_at TEXT NOT NULL DEFAULT '';

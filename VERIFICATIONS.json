@@ -1,0 +1,19 @@
+{
+  "date_utc": "2026-09-30T21:38:17.692445+00:00",
+  "node_tested": "24.19.0",
+  "integration_tests": {
+    "passed": 4,
+    "failed": 0
+  },
+  "javascript_syntax_checked": 33,
+  "source_styles": {
+    "public": "Toutes les règles identiques ; seules les URL des ressources deviennent relatives.",
+    "admin": "Identique octet pour octet."
+  },
+  "original_assets_unchanged": 10,
+  "local_html_links": "Valides",
+  "browser_review": "Le navigateur de cet environnement n’a pas permis le contrôle visuel. Les CSS, les ressources et la structure HTML ont été vérifiés sans comparaison de captures.",
+  "public_styles_sha256": "35315ab8921fc516192c7d342e9a6d1089fc498255df3e9cfa38687786d2d07b",
+  "production_data_included": false,
+  "active_secrets_included": false
+}

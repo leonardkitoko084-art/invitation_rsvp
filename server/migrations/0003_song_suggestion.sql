@@ -1,0 +1,1 @@
+ALTER TABLE rsvps ADD COLUMN song_suggestion TEXT NOT NULL DEFAULT '';

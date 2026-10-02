@@ -1,0 +1,7 @@
+# Reprendre le développement dans Codex
+
+Ouvre ce dossier comme projet, puis donne cette instruction à Codex :
+
+> Travaille sur cette invitation de mariage en HTML, CSS et JavaScript natifs. Lis README.md avant toute modification. Conserve le style actuel, le fond ivoire continu, les motifs botaniques, les photos originales, les polices et le centrage des quatre horaires avec leurs icônes. La version de référence est la version 4 du mariage de Grace WAKEZO et Esther KHONDE, commit ee3330f8. Ne remplace pas ce projet par un framework et ne redessine pas l’invitation. Utilise Node.js 24+ ; npm start suffit pour lancer toutes les fonctions. Le serveur, les pages HTML générées et les API sont du JavaScript natif, la base est SQLite. Modifie site-config.js pour les informations de l’événement, styles.css pour la mise en page, script.js pour le formulaire et server/views/invitation.js pour la structure publique avec personnalisation. Après les changements, lance npm run export:static puis npm test. Vérifie également l’apparence sur mobile et ordinateur, le formulaire, les liens et l’administration. Ne publie pas de données d’invités ni le fichier .env. Demande-moi les modifications souhaitées si elles ne figurent pas déjà dans ma demande.
+
+Le serveur Node et les pages statiques partagent les mêmes styles et les mêmes ressources. Les pages nominatives sont vérifiées sur le serveur ; n’invente pas une identité à partir de paramètres `invitee` ou `table` de l’URL.

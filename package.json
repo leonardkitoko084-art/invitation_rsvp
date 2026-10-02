@@ -1,0 +1,16 @@
+{
+  "name": "leo-rsvp-grace-esther-html",
+  "version": "2.0.0",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=24.0.0"
+  },
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js",
+    "admin:setup": "node scripts/setup-admin.js",
+    "export:static": "node scripts/export-static.js",
+    "test": "node --test tests/*.test.js"
+  }
+}

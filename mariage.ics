@@ -1,0 +1,20 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//LEO DESIGN//RSVP//FR
+BEGIN:VEVENT
+UID:9b216916-b0ad-4bb1-8fa5-3f75b08ae7d5@leo-rsvp
+DTSTAMP:20261002T071706Z
+DTSTART:20261017T083000Z
+SUMMARY:Bénédiction nuptiale — Grace WAKEZO et Esther KHONDE
+DESCRIPTION:Mise en place à 09h30. Bénédiction nuptiale à 10h00. Extension La Borne.
+LOCATION:Église CEM Les Consacrés à l’Éternel\, 21\, Route Kimwenza\, Q/ Kimwenza Gare / Petit Panier\, C/ Mont Ngafula
+END:VEVENT
+BEGIN:VEVENT
+UID:62d31b90-75f2-4576-8ba5-c6174c7d1f1b@leo-rsvp
+DTSTAMP:20261002T071706Z
+DTSTART:20261017T183000Z
+SUMMARY:Soirée dansante — Grace WAKEZO et Esther KHONDE
+DESCRIPTION:Mise en place à 19h30. Entrée des mariés à 20h30. Vestimentaire : Robe\, Blouse\, chemise\, Boubou\, veste\, Etc.
+LOCATION:LA MERVEILLEUSE\, 2666\, Av. By pass Auto\, C/ Selembao
+END:VEVENT
+END:VCALENDAR

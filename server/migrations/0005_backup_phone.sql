@@ -1,0 +1,1 @@
+ALTER TABLE rsvps ADD COLUMN backup_phone TEXT NOT NULL DEFAULT '';

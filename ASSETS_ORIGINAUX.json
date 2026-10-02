@@ -1,0 +1,42 @@
+[
+  {
+    "path": "photos/couple-complice.png",
+    "sha256": "ac4198c6d2946c74a49e7ed7949c8932862deeae51fce9b6e197f1582c049ec0"
+  },
+  {
+    "path": "photos/couple-face-a-face.png",
+    "sha256": "4f9a732a388f716b7c481d16c031ca994258140fbcd55cbd5ad262081b4866f2"
+  },
+  {
+    "path": "photos/couple-bouquet.png",
+    "sha256": "d9233090fba86b4707b125ebc6905e1fdb1650a412adb3924c7ff2d7805260ee"
+  },
+  {
+    "path": "fonts/LICENSE.txt",
+    "sha256": "1315a62758a603a3e6e87a79b8389563789c59c1740b9db8bc2b20e2e2145458"
+  },
+  {
+    "path": "fonts/NimbusSansNarrow-Bold.otf",
+    "sha256": "6d7cec07f5a9035e208532dab35a51312aef4a7f26eb524dd614c9fcd97c3264"
+  },
+  {
+    "path": "fonts/NimbusSansNarrow-Regular.otf",
+    "sha256": "0111cf7c05377c4f1685d37bfa8b3edd2033278122f69e0a9803a8514e352b99"
+  },
+  {
+    "path": "fonts/Z003-MediumItalic.otf",
+    "sha256": "a04947e59fc9339ea3c4b34c31fd46764f22af7512afc2c074ce190e79ed7a09"
+  },
+  {
+    "path": "assets/icons/robe-de-mariee.png",
+    "sha256": "2cf6aac76b87cb963b03f3cf244510b34ba280116ff57e3409b0b8fc743d8e66"
+  },
+  {
+    "path": "assets/icons/costume.png",
+    "sha256": "f27dfa50c7833458c3026a5f4f324caaa1f27420245bbf09ca425ab2e8553bb1"
+  },
+  {
+    "path": "assets/images/botanical-border.png",
+    "sha256": "09b6c33154f64cfd849ca3fb58ccd80e8ef1591bb76690c6146645577a526a72"
+  }
+]
